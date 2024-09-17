@@ -1,0 +1,26 @@
+@import url(root.css);
+
+@media(max-width: 1200px){
+    .conteudo{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 8rem 1rem;
+        text-align: center;
+    }
+    label{
+        border: none;
+        margin: 4rem 0 0 0;
+    }
+    .agendamento{
+        padding: 5rem 12rem;
+        margin: 0 1rem;
+    }
+    .agendamento h1{
+        font-size: 8rem;
+    }
+    #preco{
+        font-size: 5rem;
+    }
+}

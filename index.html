@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.query.css">
+    <title>Oficina - Agendamento</title>
+</head>
+<body>
+    <div class="conteudo">
+        <h1>Agende a oficina</h1>
+        <form action="./scripts/script.php" method="POST">
+            <label>Escolha um serviço</label>
+            <select name="servico" id="servico">
+                <option value="default" id="default" selected>Selecione...</option>
+                <option value="trocaDeOleo">Troca de Óleo</option>
+                <option value="alinhamento">Alinhamento</option>
+                <option value="balanceamento">Balanceamento</option>
+                <option value="revisaoGeral">Revisão Geral</option>
+            </select>
+            <input type="submit" id="agendar" value="AGENDAR" onclick="verificar()">
+        </form>
+    </div>
+    <div class="imgOficina"></div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

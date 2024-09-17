@@ -1,0 +1,18 @@
+:root{
+    --cor-fundo: rgb(211, 211, 211);
+    --cor-fonte: #FFFFFF;
+    --cor-destaque: rgb(172, 0, 0);
+    --cor-botao: #000000;
+    --fonte-padrao: "Mangal" ;
+    --fonte-destaque:"Monday" ;
+}
+
+@font-face {
+    font-family: "Monday";
+    src: url(../fonts/monday.ttf);
+}
+
+@font-face {
+    font-family: "Mangal";
+    src: url(../fonts/mangal.ttf);
+}
